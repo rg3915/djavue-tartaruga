@@ -1,3 +1,42 @@
+# tartaruga
+
+Exercício de Django e VueJS baseado no tutorial do Tony em http://github.com/evolutio/exercicio_crud
+
+E tutorial no YouTube [Aula webinario - criando um crud com o dejavue
+](https://www.youtube.com/watch?v=RZNsrVnUh_c&t).
+
+
+## Como rodar o projeto?
+
+
+```
+git clone git@github.com:rg3915/djavue-tartaruga.git
+cd djavue-tartaruga
+vue init evolutio/djavue .
+# Projeto: tartaruga
+cd frontend
+npm install
+npm run dev
+```
+
+Se der ruim no `npm run dev` vai no [Stack overflow](https://stackoverflow.com/a/49148240).
+
+
+### Rodando o backend
+
+```
+cd ..
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install -r requirements.txt
+python contrib/env_gen.py
+# python manage.py migrate
+# python manage.py runserver
+```
+
+
+
 # 1. Dev-env, super-easy mode (docker all things)
 
 Requirements:
