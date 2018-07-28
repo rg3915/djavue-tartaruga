@@ -1,0 +1,11 @@
+__pycache__
+dkdata
+*.pyc
+.coverage
+coverage.xml
+htmlcov/
+.idea
+/tartaruga.log
+.env
+.venv/
+*.sqlite3
